@@ -1,95 +1,44 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     margin: 0;
-    padding: 0;
-background-color:bisque;
-}
-
-.header {
-    background-color: #ae9f9f;
-    padding: 20px;
-    border-bottom: 1px solid #ddd;
-}
-
-.navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    padding: 0 10px;
-}
-
-.nav-link:hover {
-    color: #000;
-}
-
-.main {
     padding: 20px;
 }
 
-.left-column {
-    width: 60%;
-    float: left;
-    padding-right: 20px;
+header {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.right-column {
-    
-    width: 40%;
-    float: left;
-    padding-left: 20px;
-}
-
-.title {
+h1 {
     font-size: 24px;
     margin-bottom: 5px;
 }
 
-.about-me {
-    margin-top: 20px;
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
-.contact {
-    
-    text-align:right;
+section {
+    margin-bottom: 20px;
 }
 
-.social-media {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 10px;
-}
-
-.social-media li {
+ul {
     list-style: none;
-    margin-right: 10px;
+    padding: 0;
 }
 
-.social-media a {
-    color: #333;
-    text-decoration: none;
-}
-
-.download-resume {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
+li {
+    margin-bottom: 5px;
 }
 img{
-    margin-left: -20px;
-    width: 400px;
-    height: 600px;
-}
-hr{
+    margin-top: 100px;
+    margin-left: -200px;
+    width: 300px;
+    height: 500px;
+    margin: 120px;
     
-    margin: 20px;
+}
+table{
+    
 }
